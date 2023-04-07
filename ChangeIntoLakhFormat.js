@@ -15,4 +15,6 @@ console.log(formatNumberToLakh(100000)); // output: 1.00 Lakh
 console.log(formatNumberToLakh(1000000)); // output: 10.00 Lakh
 console.log(formatNumberToLakh('invalid number')); // output: NaN
 
-// In this example, the 'formatNumberToLakh' function takes a number as an argument, checks if it's a valid number or not, and then divides it by 100,000 and formats it with the 'toFixed' method to display two decimal places. Finally, it appends the "Lakh" suffix to the formatted number and returns the result.
+// In this example, the 'formatNumberToLakh' function takes a number as an argument, 
+// checks if it's a valid number or not, and then divides it by 100,000 and formats it with the 'toFixed' method to display two decimal places. 
+// Finally, it appends the "Lakh" suffix to the formatted number and returns the result.
